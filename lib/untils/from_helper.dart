@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_html/html_parser.dart';
 
 class FromHelper {
   static Widget inputFieldWidget(BuildContext context, Icon icon,

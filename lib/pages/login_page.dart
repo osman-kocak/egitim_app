@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:ht/services/ProgressHUD.dart';
 import 'package:ht/services/api_service.dart';
 import 'package:ht/untils/from_helper.dart';
-import 'package:http/http.dart';
 
 class LoginPage extends StatefulWidget {
   @override

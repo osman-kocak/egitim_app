@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'dart:convert';
 
 LoginResponseModel loginResponseFromJson(String str) =>
@@ -19,7 +18,7 @@ class LoginResponseModel {
     statusCode = json['statuCode'];
     code = json['code'];
     message = json['message'];
-    data = json['data'].lenght > 0 ? new Data.fromJson(json['data']) : null;
+    data = json['data'].length > 0 ? new Data.fromJson(json['data']) : null;
   }
 
   Map<String, dynamic> toJson() {
