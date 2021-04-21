@@ -1,6 +1,6 @@
 ###
 
-POST http://bi-app.info/wp-json/jwt-auth/v1/token HTTP/1.1
+POST https://bi-app.info/wp-json/jwt-auth/v1/token HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 
 username=osmankocak212&password=osmankocak123

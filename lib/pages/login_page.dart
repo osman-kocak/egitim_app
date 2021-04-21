@@ -165,7 +165,8 @@ class _LoginPageState extends State<LoginPage> {
     if (form.validate()) {
       form.save();
       return true;
+    } else {
+      return false;
     }
-    return false;
   }
 }
